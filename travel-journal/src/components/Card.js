@@ -3,7 +3,7 @@ import location from "../images/location.png"
 export default function Card() {
     return (
         <div className="card">
-            <img src="https://i.pinimg.com/originals/6f/3d/0c/6f3d0ce13bf002ae6efc18b50fb910f8.jpg" width="300px" className="card-image" />
+            <img src="https://i.pinimg.com/originals/6f/3d/0c/6f3d0ce13bf002ae6efc18b50fb910f8.jpg" className="card-image" />
             <div className="card-right">
                 <div className="card-location-description">
                     <img src={location} width="15px" className="location" />

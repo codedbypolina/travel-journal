@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: "Inter", sans-serif;
+  color: #2b283a;
 }
 
 /* NAVBAR */
@@ -28,12 +29,18 @@ h3 {
 .card {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 8%;
 }
 
 .card-location-description {
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
+}
+
+.card-right {
+  padding: 3%;
 }
 
 .location {
@@ -45,8 +52,26 @@ h3 {
 .card-location {
   text-transform: uppercase;
   margin-right: 10px;
+  letter-spacing: 4px;
 }
 
 a {
   color: #918e9b;
+  margin-left: 5px;
+}
+
+.card-image {
+  width: 250px;
+  padding: 1%;
+  border-radius: 10px;
+  align-self: auto;
+}
+
+.card-right > h2 {
+  font-size: 35px;
+}
+
+.card-right > h3 {
+  font-weight: 700;
+  font-size: 15px;
 }
