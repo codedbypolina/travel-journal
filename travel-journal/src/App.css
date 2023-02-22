@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #f55a5a;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.globe {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
