@@ -7,16 +7,7 @@ function App() {
   const card = data.map(item => (
     <Card
       key={item.id}
-      image={item.imageUrl}
-      location={item.location}
-      maps={item.googleMapsUrl}
-      title={item.title}
-      startDate={item.startDate}
-      endDate={item.endDate}
-      description={item.description}
-
-
-
+      item={item}
     />
   ))
 
